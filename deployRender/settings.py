@@ -78,7 +78,7 @@ WSGI_APPLICATION = "deployRender.wsgi.application"
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/dbRender',
+        default='postgresql://postgres:postgres@localhost:5432/dbrender',
         conn_max_age=600
     )
 }
